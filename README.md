@@ -10,12 +10,6 @@ Se trata de una página web responsive donde presento mi perfil profesional, sta
 
 ---
 
-## 👨‍💻 Perfil Profesional
-Soy estudiante intermedio de la **Licenciatura en Informática (UNAHUR)**. Mi enfoque principal es el desarrollo **Backend con Java**, con una sólida base en lógica de programación, estructuras de datos y modelado de bases de datos relacionales. 
-
-Este proyecto no es solo un CV, sino una muestra de mi capacidad para estructurar código limpio, semántico y profesional desde cero.
-
----
 
 ## 🛠️ Tecnologías y Conceptos Aplicados
 - **HTML5 Semántico (Uso de etiquetas estructurales (`<header>`, `<main>`, `<section>`) para accesibilidad y SEO)** 
@@ -39,6 +33,13 @@ Este proyecto no es solo un CV, sino una muestra de mi capacidad para estructura
 ## 🌐 Ver online
 
 https://christianfnunez.github.io/cvtecnico/
+
+---
+
+## 👨‍💻 Perfil Profesional
+Soy estudiante intermedio de la **Licenciatura en Informática (UNAHUR)**. Mi enfoque principal es el desarrollo **Backend con Java**, con una sólida base en lógica de programación, estructuras de datos y modelado de bases de datos relacionales. 
+
+Este proyecto no es solo un CV, sino una muestra de mi capacidad para estructurar código limpio, semántico y profesional desde cero.
 
 ---
 

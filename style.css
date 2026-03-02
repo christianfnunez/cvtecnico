@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #1f3c88;
+    --text-color: #2d2d2d;
+    --light-gray: #f5f6fa;
+    --border-color: #e0e0e0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+    background-color: white;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.header {
+    background-color: var(--light-gray);
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.role {
+    font-weight: 600;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.contact p {
+    font-size: 0.9rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    margin-left: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.project-description {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.8rem;
+}
+
+/* Desktop */
+
+@media (min-width: 768px) {
+
+    .contact {
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+}
